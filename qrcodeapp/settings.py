@@ -3,7 +3,7 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
-SECRET_KEY = 'b%akk-^=i9bdzxg($u&ftza_+o+j-^-0hk!m0s85@9-js48u^m'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = True
 
