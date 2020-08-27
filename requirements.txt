@@ -4,9 +4,11 @@ chardet==3.0.4
 Django==3.1
 idna==2.10
 numpy==1.19.1
+opencv-contrib-python==4.4.0.42
 opencv-python==4.4.0.42
 playsound==1.2.2
 pytz==2020.1
+pyzbar==0.1.8
 requests==2.24.0
 sqlparse==0.3.1
 urllib3==1.25.10
