@@ -3,6 +3,9 @@ import numpy as np
 from playsound import playsound
 from pyzbar.pyzbar import decode
 
+# we need to enclose the VideoCapture as class object
+class VideoStream():
+    pass
 
 cap = cv2.VideoCapture(0)
 
